@@ -12,5 +12,4 @@ To begin with, the string "guest:guest@localhosts:5672" acts a connection URI in
 broker. The first "guest" in the string represents the username alongside the second "guest" which represents the password. Therefore,
 putting the two together, "guest:guest" would refer to the username and password that is used when authenticating the 
 connection with the AMQP broker. Moreover, "localhost" means that the broker would be running on the same maching wherein
-the code itself is being executed from and "5672" refers to the port number from which the broker is listening from. Therefore,
-"localhost:5672" would mean that the code will be run locally from the machine, accessible through the port 5672.
+the code itself is being executed from and "5672" refers to the port number from which the broker is listening from. Therefore, "localhost:5672" would mean that the code will be run locally from the machine, accessible through the port 5672.
